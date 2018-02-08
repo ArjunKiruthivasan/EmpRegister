@@ -199,7 +199,6 @@ var EmployeeListComponent = /** @class */ (function () {
     };
     EmployeeListComponent.prototype.onEdit = function (emp) {
         this.employeeService.selectedEmployee = Object.assign({}, emp);
-        this.tostr.warning("Updated Successfully", "Employee register");
     };
     EmployeeListComponent.prototype.onDelete = function (key) {
         if (confirm('Are you sure to delete this record ?') == true) {
