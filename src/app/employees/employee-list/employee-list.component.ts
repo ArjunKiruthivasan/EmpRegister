@@ -26,7 +26,6 @@ export class EmployeeListComponent implements OnInit {
  
   onEdit(emp: Employee) {
     this.employeeService.selectedEmployee = Object.assign({}, emp);
-    this.tostr.warning("Updated Successfully", "Employee register");
   }
  
   onDelete(key: string) {
